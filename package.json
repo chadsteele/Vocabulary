@@ -1,5 +1,5 @@
 {
-  "name": "vocabulary",
+  "name": "Vocabulary",
   "version": "1.0.0",
   "main": "Vocabulary.js",
   "directories": {
@@ -8,10 +8,14 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "ChadSteele.com",
   "license": "ISC",
-  "keywords": [],
-  "description": "",
+  "keywords": [
+    "javascript",
+    "vocabulary",
+    "persona"
+  ],
+  "description": "Everybody and everything has a vocabulary. Users, actions, websites, ads, memes, etc. This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.",
   "dependencies": {
     "mocha": "^6.1.4"
   }
