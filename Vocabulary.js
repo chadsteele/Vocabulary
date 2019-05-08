@@ -1,33 +1,29 @@
 /* 
     Vocabulary
 
-    Ever document or collection of documents has a "vocabulary" that defines that doc/collection.  
-    For example, a snowboarding website would likely use a different set of words than
-    a website about brain surgery.
-
-    A user's vocabulary could be the aggregation of all the words they're interested in
-    by maintaining a hash table of words and their frequency.  
-
-    Vocabulary(words) - initialize this instance and consume and count initial words
-    Vocabulary.add(words) -  consume and count more words - useful for consuming a stream of words
-    Vocabulary.rank(word) -  the rank of that word in this vocabulary
-    Vocabulary.relevance(another) -  the relevance of "another" vocabulary to this one
-
-    Relevance is a complicated concept, but the easiest way for me to explain it is to imagine a 
-    3 yo child with a very short child's vocabulary and a highly educated adult.  Most of what the adult 
-    says will not seem relevant to the child, but most of what the child says will be "relevant" and
-    understood by the adult.  If this class were used in a program, you could maintain a running vocabulary
-    for every user that would remember pages they visit, scroll down, engage with, etc. and then use
-    their vocabulary to determine what new content they're most likely to "buy".
-
-    I'm certain there are far better algorithms, but this was a fun exercise and I'm proud to have
-    a working class with very very little code.  KISS!
-
-    Chad Steele
-    970 471 6822
-    exit
+    See Readme.md  at https://github.com/chadsteele/Vocabulary
     
-    www.ChadSteele.com
+MIT License
+
+Copyright (c) 2019 ChadSteele.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 */
