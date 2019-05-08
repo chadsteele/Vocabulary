@@ -73,6 +73,12 @@ https://www.npmjs.com/package/mocha
 # Contributing
 Pull requests welcome! Please add unit tests to tests.js for any new functions.
 
+## To do's
+* I'd love some help creating demos on actual websites.  If you've used this tool on your site and want me to list it here, please reach out.
+* Create a wordpress plugin
+* Create a chrome plugin so that savvy users can share their global vocabulary with sites that can leverage it
+* what else?
+
 # Dependencies
 None.  Let's keep it that way please.
 
