@@ -20,6 +20,11 @@ or on the server
 ```javascript
 const Vocabulary = require('Vocabulary.js');
 ```
+# npm - node package manager
+https://www.npmjs.com/package/vocabulary-js
+```bash
+npm install vocabulary-js
+```
 
 # User Stories
 As a user, I want to be "heard" and "known" as I click around your site(s), so that when your sight suggests other products, stories or opportunities they will be relevant to me and my demonstrated interests.
