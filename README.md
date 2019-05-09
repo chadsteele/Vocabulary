@@ -2,7 +2,7 @@
 ![wordle with logo](https://user-images.githubusercontent.com/314810/57466769-7c45d180-723e-11e9-94b8-650280f90427.png)
 
 # Vocabulary (personality)
-Everybody and everything has a vocabulary.  Users, actions, websites, ads, memes, etc.  This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.  It's super fast, tiny, and runs on the client.
+Everybody and everything has a vocabulary.  Users, actions, websites, ads, memes, etc.  This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.  It's super fast, tiny, agnostic and runs on the client.
 
 Most humans and therefore most documents and websites have limited vocabularies, usually around 20,000 words and rarely more than 50,000 words.  Vocabularies are typically much smaller than the documents they represent.  A Vocabulary() is simply a hash table of all the words you've given it and how many times it's seen the same word.  In this way, every word is ranked by the frequency and size of the word.  Like any json object, you can store a vocabulary anyway you like.  Given their small size, I cache them locally in window.localStorage and can store them permanently in a NoSql db if desired.  Blockchain too?  (need help)  You really only need to store a user's vocabulary as they click around your site, return, etc.  A page's vocabulary should be created dynamically by the client and independently of the CMS, etc.  I suppose you could calculate and cache on the server too, but that would only make sense if your page has an enormous number of words on the page.
 
@@ -71,7 +71,7 @@ You'll need to install npm, node, and mocha to run these tests in a terminal
 Pull requests welcome! Please add unit tests to tests.js for any new functions.
 
 ## To do's
-* I'd love some help creating demos on actual websites.  If you've used this tool on your site and want me to list it here, please reach out.
+* I'd love to link to your website.  If you've used this tool on your site or in your project and want me to list it here, please reach out.
 * Create a wordpress plugin
 * Create a chrome plugin so that savvy users can share their vocabulary with sites that can leverage it.  
 * Imagine a personal pagerank that can extend search results (plugin).  I'm thinking a recent and universal vocabulary and perhaps custom vocabularies based on collections of websites, perhaps in bookmarks, etc.
@@ -97,3 +97,6 @@ Hire me!  [ChadSteele.com](http://chadsteele.com "Say Hi!")
 
 # Credits
 Image credit [Wordle](http://www.wordle.net/contact)  
+
+#Websites
+I'd love to link to your website.  If you've used this tool on your site and want me to list it here, please reach out.
