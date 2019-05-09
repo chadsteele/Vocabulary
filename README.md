@@ -1,27 +1,21 @@
 # Vocabulary
 Everybody and everything has a vocabulary.  Users, actions, websites, ads, memes, etc.  This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.
 
-Most humans and therefore most documents and websites have limited vocabularies, usually around 20,000 words and rarely more than 50,000 words.  Vocabularies are typically much smaller than the documents they represent.  A Vocabulary() is simply a hash table of all the words you've given it and how many times it's seen the same word.  In this way, every word is ranked by the frequency and size of the word.  Like any json object, you can store a vocabulary anyway you like.  Given their small size, I cache them locally in window.localStorage and can store them permanently in a NoSql db if desired.  You really only need to store a user's vocabulary as they click around your site, return, etc.  A page's vocabulary should be created dynamically by the client and independently of the CMS, etc.
+Most humans and therefore most documents and websites have limited vocabularies, usually around 20,000 words and rarely more than 50,000 words.  Vocabularies are typically much smaller than the documents they represent.  A Vocabulary() is simply a hash table of all the words you've given it and how many times it's seen the same word.  In this way, every word is ranked by the frequency and size of the word.  Like any json object, you can store a vocabulary anyway you like.  Given their small size, I cache them locally in window.localStorage and can store them permanently in a NoSql db if desired.  Blockchain too?  (need help)  You really only need to store a user's vocabulary as they click around your site, return, etc.  A page's vocabulary should be created dynamically by the client and independently of the CMS, etc.  I suppose you could calculate and cache on the server too, but that would only make sense if your page has an enormous number of words on the page.
 
 Vocabulary() can run on the server (Node) or the client (Javascript).  It does not depend on jQuery or any other libraries, but is compatible of course.
 
 # Usage
 It's just a tiny amount of javascript, so you can include it in the browser.  
 ```html
-<html>
-<head>...</head>
-<body>
-...
 <script src="Vocabulary.js"></script>
-</body>
-</html>
 ```
 or on the server
 ```javascript
 const Vocabulary = require('Vocabulary.js');
 ```
 # npm - node package manager
-https://www.npmjs.com/package/vocabulary-js
+[https://www.npmjs.com/package/vocabulary-js](https://www.npmjs.com/package/vocabulary-js)
 ```bash
 npm install vocabulary-js
 ```
@@ -68,7 +62,7 @@ class Vocabulary {
 Run `node tests`
 
 You'll need to install npm, node, and mocha to run these tests in a terminal
-https://www.npmjs.com/package/mocha
+[https://www.npmjs.com/package/mocha](https://www.npmjs.com/package/mocha)
 
 # Contributing
 Pull requests welcome! Please add unit tests to tests.js for any new functions.
@@ -79,15 +73,16 @@ Pull requests welcome! Please add unit tests to tests.js for any new functions.
 * Create a chrome plugin so that savvy users can share their global vocabulary with sites that can leverage it
 * Store vocabularies on a blockchain for personal applicability/sharing while navigating the web
 * Add AI vs the relatively simple math I'm using now to determine relevance between two large vocabularies
-* what else?
 * 
+* what else?
+  
 
 # Dependencies
 None.  Let's keep it that way please.
 
 # ISC License
 
-Copyright (c) 2019 ChadSteele.com
+Copyright (c) 2019 [ChadSteele.com](ChadSteele.com "Say Hi!")
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
