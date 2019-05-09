@@ -98,5 +98,5 @@ Hire me!  [ChadSteele.com](http://chadsteele.com "Say Hi!")
 # Credits
 Image credit [Wordle](http://www.wordle.net/contact)  
 
-#Websites
+# Websites
 I'd love to link to your website.  If you've used this tool on your site and want me to list it here, please reach out.
