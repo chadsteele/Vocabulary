@@ -70,8 +70,8 @@ Pull requests welcome! Please add unit tests to tests.js for any new functions.
 ## To do's
 * I'd love some help creating demos on actual websites.  If you've used this tool on your site and want me to list it here, please reach out.
 * Create a wordpress plugin
-* Create a chrome plugin so that savvy users can share their global vocabulary with sites that can leverage it
-* Store vocabularies on a blockchain for personal applicability/sharing while navigating the web
+* Create a chrome plugin so that savvy users can share their global vocabulary with sites that can leverage it.  Or imagine a personal pagerank that can extend search results.
+* Store vocabularies on a blockchain for personal applicability/sharing while navigating the web.  
 * Add AI vs the relatively simple math I'm using now to determine relevance between two large vocabularies
 * 
 * what else?
