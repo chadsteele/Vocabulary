@@ -1,5 +1,5 @@
 
-![wordle 2](https://user-images.githubusercontent.com/314810/57465501-fa54a900-723b-11e9-9610-06e373557f42.png)
+![wordle with logo](https://user-images.githubusercontent.com/314810/57466769-7c45d180-723e-11e9-94b8-650280f90427.png)
 
 # Vocabulary (personality)
 Everybody and everything has a vocabulary.  Users, actions, websites, ads, memes, etc.  This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.
