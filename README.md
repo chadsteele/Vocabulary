@@ -1,3 +1,5 @@
+![wordle-js2](https://user-images.githubusercontent.com/314810/57461431-400d7380-7234-11e9-8816-565b976fc164.png)
+
 # Vocabulary
 Everybody and everything has a vocabulary.  Users, actions, websites, ads, memes, etc.  This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.
 
