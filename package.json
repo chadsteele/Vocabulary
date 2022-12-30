@@ -17,6 +17,6 @@
   ],
   "description": "Everybody and everything has a vocabulary. Users, actions, websites, ads, memes, etc. This tool can help you track and assess relevance between vocabularies and ensure your content will be interesting for your users.",
   "dependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   }
 }
